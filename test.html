@@ -6,12 +6,13 @@
     <style>
         *{
             box-sizing: border-box;
-
         }
+
         html,body{
             padding: 0;
             margin: 0;
             height: 100vh;
+            width: 300vh;
             max-height: 100vh;
             overflow: hidden;
         }
@@ -22,7 +23,7 @@
         
         .container{
             margin: 100px auto;
-            height: 100%
+            height: 200%
         }
 
         #lock{
@@ -45,8 +46,7 @@
         }
 
         svg.patternlock g.lock-actives circle{
-            fill: black;
-            opacity: 0.2;
+            fill: rgb(204, 230, 204);
             animation: lock-activate-dot 0.15s 0s ease 1;
         }
 
